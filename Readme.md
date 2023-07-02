@@ -1,7 +1,7 @@
 #Instructions to run
 
 cd into the project directory
-e.g. cd react-workship
+e.g. cd react-workshop
 
 then, 
 
