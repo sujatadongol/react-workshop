@@ -22,19 +22,19 @@ export function MyDetail({ detailObj }) {
           borderRadius: "10px",
         }}
       >
-        <img
+        {/* <img
           src={detailObj.url}
           alt="photo"
           style={{ width: 100, height: 100, borderRadius: "50px" }}
-        />
+        /> */}
         <div style={{ fontWeight: "bold", fontSize: "20px" }}>
-          {detailObj.name}
+          {detailObj.title}
         </div>
-        <div>{detailObj.email}</div>
+        {/* <div>{detailObj.email}</div>
         <ReturnAddress
           homeAddress={detailObj.homeAddress}
           officeAddress={detailObj.officeAddress}
-        />
+        /> */}
       </div>
     </>
   );
